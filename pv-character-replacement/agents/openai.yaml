@@ -1,0 +1,4 @@
+interface:
+  display_name: "高质量 PV 角色替换"
+  short_description: "用逐稿重绘、独立字幕图层、真实曝光与原速验收制作高质量角色替换 PV"
+  default_prompt: "使用 $pv-character-replacement 制作高质量角色替换 PV，保留原画风和演出；先分析真实绘稿与时序，再检查关键姿势、遮挡、字幕及原速连续性，分别完成技术和美术验收。"
