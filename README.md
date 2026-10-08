@@ -13,6 +13,11 @@ Skill 名称：`pv-character-replacement`。它是制作工作流与检查工具
 - `references/`：拆稿、提示词、图层、连续性和交付检查。
 - `scripts/`：二维差值、曝光表校验、精确来源时序、编码/AAC 校验及单元测试。
 
+## 默认制作规则
+
+- [未修改区域优先保留](pv-character-replacement/references/layers-and-continuity.md#未修改区域优先保留)：字幕区经整段曝光检查与新旧人物及编辑支持不交叠时，沿用对应原帧区域，只重绘/合成角色所需部分；不冻结字幕和特效。
+- [项目状态及时落盘](pv-character-replacement/references/production-playbook.md#项目状态与中断恢复)：记录文件职责、素材版本、当前采用及检查范围；中断或上下文压缩后先恢复磁盘状态，再继续生成，避免重复生图与旧稿回退。
+
 ## 安装与调用
 
 在支持 Skill Installer 的 Codex 中发送：
